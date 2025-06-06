@@ -6,8 +6,6 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
-    "format": "prettier --write .",
-    "lint": "eslint .",
     "preview": "rsbuild preview",
     "svelte-check": "svelte-check --tsconfig ./tsconfig.json"
   },
@@ -20,14 +18,8 @@
     "@rsbuild/plugin-less": "^1.2.4",
     "@rsbuild/plugin-svelte": "^1.0.8",
     "@types/node": "^22.15.30",
-    "eslint": "^9.23.0",
-    "eslint-plugin-svelte": "^3.4.1",
     "globals": "^16.0.0",
     "less": "^4.3.0",
-    "prettier": "^3.5.3",
-    "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-packagejson": "^2.5.15",
-    "prettier-plugin-svelte": "^3.4.0",
     "svelte-check": "^4.1.7",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.0"
